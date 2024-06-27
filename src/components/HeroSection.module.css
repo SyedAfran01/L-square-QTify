@@ -1,0 +1,27 @@
+/* components/HeroSection.module.css */
+
+.hero {
+    background-color: black; /* Set background color to black */
+    color: white; /* Text color */
+    width: 100%; /* Take up entire width */
+    padding: 80px 20px; /* Adjust padding as needed */
+    text-align: center;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .headphones {
+    width: 200px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Space between image and text */
+  }
+  
+  .text {
+    max-width: 600px; /* Limit width of text container */
+  }
+  
