@@ -1,0 +1,9 @@
+:root {
+    --primary-color: #000000; /* Black */
+    --text-color: #00ff00; /* Green text color */
+    --border-color: #dcdcdc; /* Light grey */
+    --icon-color: #ffffff; /* White */
+    --navbar-background-color: #00ff00; /* Green */
+    --background-color: #f8f8f8; /* Light grey, if you want to use this for the rest of the app */
+  }
+  

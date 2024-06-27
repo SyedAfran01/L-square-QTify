@@ -1,0 +1,42 @@
+.searchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white; /* Ensure the background is white for contrast */
+  border: 1px solid var(--border-color); /* Add border to Search Bar */
+  border-radius: 5px; /* Add border radius */
+  padding: 5px;
+  width: 100%;
+  max-width: 600px; /* Adjust the max width as needed */
+}
+
+.searchInput {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-radius: 0; /* Ensure the input has square corners */
+}
+
+.separator {
+  height: 100%; /* Match the height of the container */
+  border-left: 1px solid var(--border-color); /* Vertical line */
+}
+
+.searchButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--icon-color); /* Ensure the button background is white */
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px; /* Add border radius */
+}
+
+.searchIcon {
+  fill: var(--primary-color); /* Change the icon color if needed */
+  width: 20px;
+  height: 20px;
+}

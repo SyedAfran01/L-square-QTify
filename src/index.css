@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--background-color); /* Set background color for the rest of the app */
+  color: var(--text-color); /* Set the text color for readability */
+}
+
+/* Other global styles */
