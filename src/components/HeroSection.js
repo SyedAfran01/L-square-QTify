@@ -8,7 +8,7 @@ const HeroSection = () => {
       <div className={styles.content}>
         <img src={HeroImage} alt="Headphones" className={styles.headphones} />
         <div className={styles.text}>
-          <h1>100 Thousand Songs, add-free</h1> {/* Add the required text */}
+          <h1>100 Thousand Songs, ad-free</h1>
         </div>
       </div>
     </section>
