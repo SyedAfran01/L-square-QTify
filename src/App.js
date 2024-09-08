@@ -1,17 +1,16 @@
-// src/App.jsx (Updated version)
-import React from 'react';
-import Navbar from './components/Navbar';
-import HeroSection from './components/HeroSection';
-import Section from './components/Section';
-
+import "./App.css";
+import Navbar from "./components/NavBar";
+import Hero from "./components/Hero";
+import Card from "./components/Card";
+import Song from "./components/Song";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <HeroSection />
-      <Section title="Top Albums" apiEndpoint="https://qtify-backend-labs.crio.do/albums/top" />
-      <Section title="New Albums" apiEndpoint="https://qtify-backend-labs.crio.do/albums/new" />
+      <Hero />
+      <Card />
+      <Song />
     </div>
   );
 }
